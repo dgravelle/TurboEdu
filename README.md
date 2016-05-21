@@ -1,2 +1,2 @@
-# TurboEd
+# TurboEdu
 Personalized education.
