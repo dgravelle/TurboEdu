@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>Welcome!</h1>
+        <p>Please tell us about yourself</p>
+        <form action="">
+          <div class="form-group">
+            <label for="" class="label-control">Name</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="" class="label-control">Email</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="" class="label-control">Date of Birth</label>
+            <input type="date" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="" class="label-control">Education Level</label>
+            <select class="form-control" name="education" id="">
+              <option value="1">Did not graduate High School</option>
+              <option value="2">Graduated High School</option>
+              <option value="3">Some College</option>
+              <option value="4">2 year College</option>
+              <option value="5">4 year college</option>
+              <option value="6">Masters</option>
+              <option value="7">PHD</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="city" class="label-control">City</label>
+            <select class="form-control" name="city" id="city">
+              <option value="1" selected>Seattle</option>
+              <option value="2">San Francisco</option>
+              <option value="3">New York</option>
+              <option value="4">Austin</option>
+              <option value="5">Denver</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="" class="label-control">Role</label>
+            <select class="form-control" name="city" id="city">
+              <option value="1" selected>Data Scientist</option>
+              <option value="2">Front End Developer</option>
+              <option value="3">Back End Developer</option>
+              <option value="4">Mobile Developer</option>
+            </select>
+          </div>
+          <div class="form-group form-inline">
+            <label for="" class="label-control">Skill</label>
+            <select class="form-control" name="skill" id="skill">
+              <option value="1">HTML</option>
+              <option value="2">CSS</option>
+              <option value="3">Javascript</option>
+              <option value="4">Python</option>
+              <option value="5">SQL</option>
+            </select>
+            <label for="" class="label-control">Experience</label>
+            <select class="form-control" name="skill" id="skill">
+              <option value="1">1 - 2 years</option>
+              <option value="2">2 - 5 years</option>
+              <option value="3">5 - 10 years</option>
+              <option value="4">10+ years</option>
+            </select>
+            <button id="addSkill" class="btn btn-default">+</button>
+          </div>
+          <a href="#" class="btn btn-primary pull-right">Continue</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
