@@ -21,7 +21,6 @@
 					<button data-bind="click: toggle">Open the talent tree &raquo;</button></div>
 			</div>
 			<div class="talent-tree">
-				<h2 class="start-helper" data-bind="css:{active:noPointsSpent}">Start here!</h2>
 				<!--ko foreach: skills-->
 				<!--ko if: hasDependencies-->
 				<div data-bind="css: { 'can-add-points': canAddPoints, 'has-points': hasPoints, 'has-max-points': hasMaxPoints }, attr: { 'data-skill-id': id }" class="skill">

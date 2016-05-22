@@ -21,9 +21,9 @@
 <script type="text/javascript">
     // create an array with nodes
     var nodes = new vis.DataSet([
-        {id: 1, label: 'Computational Complexity'},
-        {id: 2, label: 'Base Algorithms'},
-        {id: 3, label: 'Advanced Algorithms'},
+        {id: 1, label: 'Computational\nComplexity'},
+        {id: 2, label: 'Base\nAlgorithms'},
+        {id: 3, label: 'Advanced\nAlgorithms'},
         {id: 4, label: 'HTLM'},
         {id: 5, label: 'CSS'}
     ]);
@@ -44,7 +44,14 @@
         nodes: nodes,
         edges: edges
     };
-    var options = {};
+
+    var options = {
+      edges:{
+        arrows: 'to',
+        //color: 'blue',
+        font: '12px arial blue',
+      }
+    };
 
     // initialize your network!
     var network = new vis.Network(container, data, options);
