@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-sm-offset-3">
         <h1>Welcome!</h1>
         <p>Please tell us about yourself</p>
         <form action="">
@@ -66,7 +66,7 @@
               <option value="5">SQL</option>
             </select>
             <label for="" class="label-control">Experience</label>
-            <select class="form-control" name="skill" id="skill">
+            <select class="form-control" name="skill" id="experience">
               <option value="1">1 - 2 years</option>
               <option value="2">2 - 5 years</option>
               <option value="3">5 - 10 years</option>
@@ -74,10 +74,16 @@
             </select>
             <button id="addSkill" class="btn btn-default">+</button>
           </div>
+          <div id="skillList">
+
+          </div>
           <a href="#" class="btn btn-primary pull-right">Continue</a>
         </form>
       </div>
     </div>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/employee-form.js"></script>
 </body>
 </html>
